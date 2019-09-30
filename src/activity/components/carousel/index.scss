@@ -1,0 +1,32 @@
+.banner-wrap{
+  position: relative;
+}
+
+.banner-img{
+  width: 100%;
+  vertical-align: top;
+}
+.swiper-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  padding: 0 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-dot{
+  width: 50px;
+  height: 10px;
+  margin: 0 5px;
+  background: #fff;
+  border-radius: 2em;
+  transition: all ease 1s;
+}
+
+.swiper-dot_on {
+	background: #3abb8f;
+}
+

@@ -1,0 +1,74 @@
+@import '../../../iconfont.scss';
+.iconfont::before{
+  font-size: 16Px;
+}
+
+.widthFix{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.activity-con{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.activity-item{
+  width: 48.5%;
+  margin-bottom: 3%;
+  background-repeat: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15)
+}
+
+.activity-item_info{
+  padding:3%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.activity-item_title{
+  color: #000;
+  font-size: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.activity-item_content{
+  margin-top: 10px;
+  color: #898989;
+  font-size: 28px;
+  line-height: 1.3;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.activity-item_action{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.activity-item_people{
+  color: #ff5653;
+  font-size: 36px;
+  font-family: Arial,Helvetica,serif;
+  width: 50%;
+}
+.activity-item_ts{
+  color: #434343;
+  font-size: 28px;
+}
+.activity-item_date{
+color: #434343;
+font-size: 28px;
+display: flex;
+align-items: center;
+}
+.icon-calendar::before{
+  margin: 5px;
+  color: #707070;
+}
